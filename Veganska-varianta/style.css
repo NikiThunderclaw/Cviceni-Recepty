@@ -21,6 +21,7 @@ notebook/pc:
 body {
     margin: 0;
     font-family: 'Source Sans Pro', sans-serif;
+    
 }
 
 .paticka {
@@ -38,3 +39,66 @@ body {
 /* ----- DOLE BUDE TVOJE CSS ----- */
 /* ------------------------------- */
 
+
+
+body {
+    color:white;
+    display: block;
+    flex-wrap: wrap;
+}
+.recept-nazev {
+    font-family: 'Raleway', sans-serif;   
+}
+
+.hlavni-recept {
+    background-image: url(images/salat.jpg);
+}
+.recept2 {
+    background-image: url(images/chlebicek.jpg);
+}
+
+.recept3 {
+    background-image: url(images/tacos.jpg);
+}
+
+.recept4 {
+    background-image: url(images/cizrna.jpg);
+}
+
+.recept5 {
+    background-image: url(images/burger.jpg);
+}
+
+.hlavni-recept,
+.recept2,
+.recept3,
+.recept4,
+.recept5 {
+    background-position: center;
+    background-size: cover;
+}
+
+h1,
+h2 {
+    margin: 0;
+}
+
+.recept-meta {
+    color: red;
+}
+/*
+@media (min-height: 250px) {
+	.hlavni-recept {
+		display: block;
+    }
+}
+
+@media (min-height: 250px) {
+	.recept2,
+    .recept3
+    .recept4
+    .recept5 {
+		display: block;
+    }
+}
+*/
